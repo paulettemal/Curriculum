@@ -7,6 +7,7 @@
 initial-scale=1.0">
     <title>Mi CV</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 
 <body>
@@ -26,19 +27,68 @@ initial-scale=1.0">
     <main>
         <section id="resumen">
             <h2>Resumen</h2>
-            <p>Breve descripción de tus habilidades y experiencia.</p>
+            <p>Insertar texto</p>
+            <img src="https://placehold.co/200" alt="placehold">
         </section>
+        
         <section id="experiencia">
             <h2>Experiencia</h2>
+            <p>
+                <ul>
+                    <li>item</li>
+                    <li>item</li>
+                    <li>item</li>
+                </ul>
+            </p>
         </section>
         <section id="educacion">
             <h2>Educación</h2>
+            <p>
+                <ol>
+                    <li>Estudiante de Computacion en: ESPOL</li>
+                    <li>Bachillerato:</li>
+                </ol>   
+            </p>
         </section>
         <section id="habilidades">
             <h2>Habilidades</h2>
         </section>
         <section id="proyectos">
             <h2>Proyectos</h2>
+        </section>
+        <section id="Contacto">
+            <h2>Contacto</h2>
+            <form>
+                <div>
+                  <label for="nombre">Nombre Completo:</label>
+                  <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div>
+                  <label for="email">Correo Electronico:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                  <label for="experiencia">Experencia Laboral:</label><br>
+                  <textarea id="educacion" name="educacion" rows="5" requiered></textarea><br>
+                </div>
+                <div>
+                  <label>Habilidades Tecnicas:</label>
+                </div>
+                <div>
+                  <input type="checkbox" name="habilidades" value="HTML"> HTML
+                  <input type="checkbox" name="habilidades" value="CSS"> CSS
+                  <input type="checkbox" name="habilidades" value="JavaScript"> JavaScript
+                </div>
+                <div>
+                  <label for="intereses">Intereses</label>
+                  <select id="intereses" name="intereses">
+                    <option value="desarrollo">Desarrollo Web</option>
+                    <option value="diseno">Diseno Grafico</option>
+                    <option value="marketing">Marketing</option>
+                  </select>
+                </div>
+                  <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
     <footer>
@@ -47,6 +97,10 @@ initial-scale=1.0">
             <li><a href="https://www.linkedin.com/in/tunombre">LinkedIn</a></li>
             <li><a href="https://github.com/tunombre">GitHub</a></li>
         </ul>
+        <h3>Oficina:</h3>
+        <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127581.52052477546!2d-80.13561805664062!3d-2.1830913999999786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d73e68b8e9133%3A0xc3b7be1e655e7577!2sCentro%20Comercial%20Laguna%20Plaza!5e0!3m2!1ses!2sec!4v1728502166656!5m2!1ses!2sec" width="400" height="2x        50" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </figure>
     </footer>
 </body>
 
